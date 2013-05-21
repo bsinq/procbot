@@ -166,3 +166,8 @@ scripts:
             - "get"
             - "{0}"
         help: Adds one karma point to another user.
+    Bball:
+        trigger: ^%NICK,? .*Bball.*$
+        command:
+            - scripts/python/Brittball.py
+        help: Answers a question with WWBD. 
